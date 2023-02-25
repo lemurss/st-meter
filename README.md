@@ -12,7 +12,7 @@ Example in YAML:
 uart:
   rx_pin: D2
   tx_pin: D1
-  baud_rate: 9600 #if your energy meter is SDM230M or SDM120M than change the baud_rate: 2400
+  baud_rate: 9600
   parity: EVEN
   stop_bits: 1
 
