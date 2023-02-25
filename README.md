@@ -1,13 +1,15 @@
 # st-meter
-DTS6619-017 energy metter by SINOTIMER
+DTS6619-016/017 energy metter by SINOTIMER
 
 ESPHome library
 
-Librory for receiving data via ModBus RTU rs485 from the energy meter by SINOTIMER DTS6619-017 counter (and similar super duper Chinese ones)+rs485 to TTL+ESP8266.   
+Librory for receiving data via ModBus RTU rs485 from the energy meter by SINOTIMER DTS6619-016/017 counter (and similar super duper Chinese ones)+rs485 to TTL+ESP8266.   
 It could be integrated to a smart home or just stare as a web page with current data.  
 Tested on 3 phase energy metter.  
 
 ![shemaESP8266_rs485toTTL_EnergyMetter](https://user-images.githubusercontent.com/75520956/221358242-8c016693-e8eb-407d-95e1-e2caf6533bce.jpg)
+
+![energy_meterDTS6619-016-017](https://user-images.githubusercontent.com/75520956/221359131-72497d86-9468-436d-bd04-0aa4a9c90087.jpg)
 
 Example in YAML:  
 
