@@ -16,6 +16,9 @@ uart:
   parity: EVEN
   stop_bits: 1
 
+modbus:
+  flow_control_pin: D4
+
 sensor:
   - platform: st_meter
     phase_a:
